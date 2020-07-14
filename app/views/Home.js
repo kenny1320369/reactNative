@@ -12,7 +12,8 @@ export class Home extends React.Component {
         return (
             <View style={styles.container}>
             <Header message="Press to Login"/>
-                <Text> x</Text>
+                <Text style={{flex:8}}> x</Text>
+                <Text style={{flex:6}}> fd</Text>
             </View>
         );
     }
@@ -22,5 +23,6 @@ export class Home extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+
     }
 });
